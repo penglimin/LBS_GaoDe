@@ -1,0 +1,7 @@
+platform:ios,'7.0'
+target 'HomePosition' do
+    # pod 'AMap3DMap-NO-IDFA' #3D地图SDK
+  pod 'AMapSearch-NO-IDFA' #地图SDK搜索功能
+  pod 'AMapLocation-NO-IDFA' #定位SDK
+  pod 'AMapNavi-NO-IDFA' #已包含3D地图，无需单独引入3D地图
+end
